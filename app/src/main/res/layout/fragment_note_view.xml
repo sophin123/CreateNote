@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteView.NoteViewFragment">
+
+    <EditText
+        android:id="@+id/writtenEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter text here"/>
+<!--        android:gravity="top|left"-->
+<!--        android:textSize="30sp"-->
+<!--        android:maxLines="20"-->
+<!--        android:lines="20"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        tools:ignore="RtlHardcoded"-->
+<!--        android:autofillHints="Type something here" />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:id="@+id/sendDataBtn"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
